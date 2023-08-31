@@ -104,7 +104,7 @@ const Register = () => {
     </div>
     <div class="bg-white border border-gray-300 text-center w-80 py-4">
         <span class="text-sm">Already have an account?</span>
-        <a class="text-blue-500 text-sm font-semibold"><Link to={"/login"}>Log in</Link></a>
+        <a class="text-blue-500 text-sm font-semibold"><Link to={"/login"}>Register</Link></a>
     </div>
     <div class="mt-3 text-center">
         <span class="text-xs">Get the app</span>

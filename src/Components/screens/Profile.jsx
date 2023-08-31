@@ -122,16 +122,16 @@ const Profile = () => {
       <ul class="flex md:hidden justify-around space-x-8 border-t 
                 text-center p-2 text-gray-600 leading-snug text-sm">
         <li>
-          <span class="font-semibold text-gray-800 block">136</span>
+          <span class="font-semibold text-gray-800 block">{profileData.length}</span>
           posts
         </li>
 
         <li>
-          <span class="font-semibold text-gray-800 block">40.5k</span>
+          <span class="font-semibold text-gray-800 block">{state.follower.length}</span>
           followers
         </li>
         <li>
-          <span class="font-semibold text-gray-800 block">302</span>
+          <span class="font-semibold text-gray-800 block">{state.following.length}</span>
           following
         </li>
       </ul>

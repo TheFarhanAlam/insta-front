@@ -118,7 +118,7 @@ const Home = () => {
         </div>
         <div class="font-semibold text-sm mx-4 mt-2">{likes} likes</div>
         <div className='flex flex-col gap-2 p-4'>
-          <p>{post.title}</p>
+          <p className=' font-bold'>{post.title}</p>
           <p>{post.body}</p>
           {
             post.comments.map((record) => {
