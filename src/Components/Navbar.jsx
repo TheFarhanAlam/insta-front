@@ -30,7 +30,7 @@ const Navbar = () => {
   <div class="flex flex-wrap items-center justify-between md:justify-around">
     {/* <!-- logo --> */}
     <Link to={state ? "/" : "/login"}>
-    <img class="h-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png" alt="instagram" />
+    <img className="h-10 items-center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png" alt="instagram" />
     </Link>
 
     {/* <!-- search--> */}
